@@ -1,2 +1,2 @@
-# Frutify Landing website
+# Frutify Tailwind-CSS-project
  
