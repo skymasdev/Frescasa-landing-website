@@ -1,2 +1,2 @@
-# Frutify Tailwind-CSS-project
+# Frescasa Tailwind-CSS-project
  
