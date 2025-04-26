@@ -1,7 +1,8 @@
-@import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/preflight'; /* Base styles for normalization */
+
+body {
+  font-family: 'Helvetica', sans-serif;
+}
 
 /* Full-screen dark overlay */
 .overlay {

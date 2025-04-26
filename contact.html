@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="/images/letter-f.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Frescasa | Home - Fresh Farm-to-Table Produce</title>
+    <title>Contact - Fresh Farm-to-Table Produce</title>
 
     <meta name="description"
         content="Frescasa is dedicated to providing fresh, farm-to-table produce across Italy. Join us in our mission to make high-quality, locally sourced food accessible to everyone.">
@@ -34,7 +34,8 @@
     <div class="overlay"></div>
 
     <!-- Background Container -->
-    <div class="relative min-h-screen w-full bg-[url('images/fruits.png')] bg-center bg-cover px-6 md:px-16 lg:px-28 py-5">
+    <div
+        class="relative min-h-screen w-full bg-[url('images/fruits.png')] bg-center bg-cover bg-fixed px-6 md:px-16 lg:px-28 py-5">
 
         <!-- Dark Background -->
         <div class="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -48,6 +49,7 @@
 
             <!-- Desktop Menu -->
             <ul class="hidden md:flex flex-1 justify-center">
+
                 <li class="list-none inline-block px-3"><a href="about-page.html"
                         class="text-white hover:text-yellow-300 duration-200">About</a></li>
                 <li class="list-none inline-block px-3"><a href="services.html"
@@ -73,33 +75,106 @@
 
         <!-- Mobile Dropdown Menu (Full-Screen) -->
         <div class="mobile-menu hidden md:hidden">
+            <!-- Close Icon -->
             <div class="close-icon">&times;</div>
+
             <ul>
                 <li><a href="about-page.html">About</a></li>
-                <li><a href="services.html">Services</a></li>
+                <li><a href="services.html">Sevices</a></li>
                 <li><a href="categories-page.html">Categories</a></li>
                 <li><a href="community.html">Community</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
 
-        <!-- Main Content -->
-        <div class="text-white mt-20 md:mt-48 max-w-xl mx-auto text-center relative z-10">
-            <h1 class="text-4xl md:text-6xl font-semibold leading-normal">Nature's Best<br>Just a Click Away</h1>
-            <p class="mt-4 text-lg">Frescasa brings farm-fresh fruits and vegetables straight to your doorstep.</p>
-        </div>
 
-        <!-- CTA Buttons -->
-        <div class="mt-10 flex flex-col md:flex-row items-center justify-center relative z-10">
-            <a href="#"
-                class="bg-yellow-300 rounded-3xl py-3 px-8 font-medium mb-3 md:mb-0 md:mr-4 hover:bg-transparent hover:border-yellow-300 hover:text-white duration-300 hover:border border border-transparent">Order
-                Now</a>
-            <a href="#"
-                class="trigger-download-modal downloadModal text-white text-lg outline-none hover:outline hover:outline-yellow-300 duration-300 px-4 py-2 rounded-3xl">
-                Download App <span class="inline-block rotate-90">&#10148;</span>
-            </a>
+        <div class="z-10">
+            <header class="relative z-10 bg-transparent py-6 mt-9 text-center ">
+                <div class="max-w-6xl mx-auto px-6">
+                    <h1 class="text-5xl font-bold text-yellow-300">Our Contact</h1>
+                    <p class="mt-2 text-xl text-gray-200">Get in Touch With Us - We’re Here to Help!
+                    </p>
+                </div>
+            </header>
+            <div class="text-white mx-auto relative z-10">
+                <!-- Contact Form -->
+                <section
+                    class="py-12 px-6 md:px-12 rounded-lg shadow-md max-w-3xl mx-auto text-center mt-12 backdrop-blur-sm bg-black bg-opacity-30">
+                    <h2 class="text-2xl font-bold text-yellow-400 mb-4">Reach Us</h2>
+                    <p class="text-white mb-8">Have questions, ideas, or just want to say hello? We'd love to hear
+                        from
+                        you!</p>
+
+                    <form class="flex flex-col gap-4 mb-8">
+                        <input type="text" placeholder="Your Name"
+                            class="px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                            required>
+                        <input type="email" placeholder="Your Email"
+                            class="px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                            required>
+                        <textarea placeholder="Your Message" rows="4"
+                            class="px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500"
+                            required></textarea>
+                        <button type="submit"
+                            class="bg-green-600 text-white py-3 rounded-md font-semibold hover:bg-green-700 transition-all">
+                            Send Message
+                        </button>
+                    </form>
+                </section>
+
+                <!-- Contact Addresses Section -->
+                <section
+                    class="py-12 px-6 md:px-12 rounded-lg shadow-md max-w-4xl mx-auto text-center mt-12 bg-black bg-opacity-30 backdrop-blur-md rounded-lg shadow-lg">
+                    <h2 class="text-2xl font-bold text-yellow-400 mb-6">Our Offices</h2>
+                    <div class="grid md:grid-cols-3 gap-8 text-white text-sm">
+                        <div class="space-y-3">
+                            <h3 class="font-semibold text-lg text-green-600">Headquarters</h3>
+                            <p>Via delle Colline, 102<br>Bologna, Emilia-Romagna, Italy</p>
+                            <p><i class="fas fa-phone-alt text-green-600 mr-2"></i>+39 051 234 5678</p>
+                        </div>
+                        <div class="space-y-3">
+                            <h3 class="font-semibold text-lg text-green-600">Administrative Office</h3>
+                            <p>Corso Vittorio Emanuele II, 58<br>Turin, Italy</p>
+                            <p><i class="fas fa-phone-alt text-green-600 mr-2"></i>+39 011 987 6543</p>
+                        </div>
+                        <div class="space-y-3">
+                            <h3 class="font-semibold text-lg text-green-600">Administrative Office</h3>
+                            <p>Via de' Tornabuoni, 16<br>Florence, Italy</p>
+                            <p><i class="fas fa-phone-alt text-green-600 mr-2"></i>+39 055 765 4321</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Social media section -->
+                <section
+                    class="py-12 px-6 md:px-12 rounded-lg shadow-md max-w-3xl mx-auto text-center mt-12 backdrop-blur-sm bg-black bg-opacity-30 ">
+                    <h2 class="text-2xl font-bold text-yellow-400 mb-4">Follow Us on Social Media</h2>
+                    <p class="white mb-6">Stay connected with the Frescasa community. Fresh updates, behind the
+                        scenes, and
+                        more!</p>
+
+                    <div class="flex justify-center gap-8 text-2xl text-white">
+                        <a href="#" class="hover:text-pink-500 transition-all" aria-label="Follow us on Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="hover:text-[#1877f2] transition-all" aria-label="Follow us on Facebook">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="#" class="hover:text-black transition-all" aria-label="Follow us on TikTok">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="#" class="hover:text-black transition-all" aria-label="Follow us on X (Twitter)">
+                            <i class="fab fa-x-twitter"></i>
+                        </a>
+                        <a href="#" class="hover:text-red-500 transition-all" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </section>
+            </div>
         </div>
     </div>
+
 
     <footer class="py-6 bg-gray-900 text-white">
         <div class="container mx-auto px-4 sm:px-8">
@@ -118,7 +193,7 @@
                 </div>
 
                 <!-- Social Icons -->
-                <div class="flex justify-center mt-4 sm:justify-end space-x-4">
+                <div class="flex justify-center mt-4 mb-2 sm:justify-end space-x-4">
                     <a href="#" class="hover:text-yellow-300 duration-200" aria-label="Facebook">
                         <i class="fab fa-facebook-f"></i>
                     </a>

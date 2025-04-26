@@ -17,3 +17,4 @@ function closeMenu() {
 
 overlay.addEventListener('click', closeMenu);
 closeIcon.addEventListener('click', closeMenu);
+
