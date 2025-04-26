@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/images/letter-f.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frescasa Community | Frescasa</title>
+
+    <meta name="description"
+        content="Frescasa is dedicated to providing fresh, farm-to-table produce across Italy. Join us in our mission to make high-quality, locally sourced food accessible to everyone.">
+    <meta name="keywords"
+        content="Frescasa, fresh produce, farm-to-table, sustainable food, local farms, Italian food, organic produce">
+    <meta name="author" content="Frescasa Team">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Frescasa - Fresh Farm-to-Table Produce">
+    <meta property="og:description"
+        content="Discover Frescasa's commitment to delivering fresh, high-quality produce from local farms to your table.">
+    <meta property="og:image" content="/images/letter-f.ico">
+    <meta property="og:url" content="https://frescasa.netlify.app/">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="/images/letter-f.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Dark Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Background Container -->
+    <div
+        class="relative min-h-screen w-full bg-[url('images/fruits.png')] bg-center bg-cover bg-fixed px-6 md:px-16 lg:px-28 py-5">
+
+        <!-- Dark Background -->
+        <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+
+        <!-- Navbar -->
+        <nav class="flex items-center justify-between relative z-10">
+            <!-- Logo -->
+            <a href="index.html">
+                <p class="text-4xl font-bold text-yellow-300 cursor-pointer">Frescasa</p>
+            </a>
+
+            <!-- Desktop Menu -->
+            <ul class="hidden md:flex flex-1 justify-center">
+
+                <li class="list-none inline-block px-3"><a href="about-page.html"
+                        class="text-white hover:text-yellow-300 duration-200">About</a></li>
+                <li class="list-none inline-block px-3"><a href="services.html"
+                        class="text-white hover:text-yellow-300 duration-200">Services</a></li>
+                <li class="list-none inline-block px-3"><a href="categories-page.html"
+                        class="text-white hover:text-yellow-300 duration-200">Categories</a></li>
+                <li class="list-none inline-block px-3"><a href="community.html"
+                        class="text-white hover:text-yellow-300 duration-200">Community</a></li>
+                <li class="list-none inline-block px-3"><a href="contact.html"
+                        class="text-white hover:text-yellow-300 duration-200">Contact</a></li>
+            </ul>
+
+            <!-- Cart & Hamburger (Mobile View) -->
+            <div class="flex items-center gap-4">
+                <img src="images/cart.png" class="w-8 cursor-pointer">
+
+                <!-- Hamburger Icon -->
+                <div class="hamburger md:hidden text-white text-3xl cursor-pointer">
+                    &#9776;
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Dropdown Menu (Full-Screen) -->
+        <div class="mobile-menu hidden md:hidden">
+            <!-- Close Icon -->
+            <div class="close-icon">&times;</div>
+
+            <ul>
+                <li><a href="about-page.html">About</a></li>
+                <li><a href="services.html">Sevices</a></li>
+                <li><a href="categories-page.html">Categories</a></li>
+                <li><a href="community.html">Community</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="mt-10 md:flex-row text-white relative z-1">
+            <header class="text-center mt-16 mb-10">
+                <h1 class="text-4xl font-bold text-yellow-400 mb-4">Frescasa Community</h1>
+                <p class="text-lg max-w-2xl mx-auto">
+                    We're more than fresh produce — we're a family of farmers, food lovers, and changemakers across
+                    Italy.
+                </p>
+            </header>
+
+            <!-- Community Values -->
+            <section class="mb-16">
+                <div class="text-center mb-10">
+                    <h2 class="text-2xl font-semibold text-yellow-400">Our Community Values</h2>
+                </div>
+                <div class="grid md:grid-cols-3 opacity-90 gap-8 max-w-5xl mx-auto text-center">
+                    <div class="bg-white shadow-md p-6 rounded-lg">
+                        <i class="fas fa-leaf text-green-700 text-3xl mb-3"></i>
+                        <h3 class="font-semibold text-green-700 mb-2">Sustainability</h3>
+                        <p class="text-black text-sm">We promote eco-conscious farming and seasonal produce that
+                            respects nature’s
+                            rhythm.</p>
+                    </div>
+                    <div class="bg-white shadow-md p-6 rounded-lg">
+                        <i class="fas fa-hand-holding-heart text-green-700 text-3xl mb-3"></i>
+                        <h3 class="font-semibold text-green-700 mb-2">Trust & Transparency</h3>
+                        <p class="text-black text-sm">We connect families with the stories behind the food they eat
+                            through local
+                            partnerships.
+                        </p>
+                    </div>
+                    <div class="bg-white shadow-md p-6 rounded-lg">
+                        <i class="fas fa-people-group text-green-700 text-3xl mb-3"></i>
+                        <h3 class="font-semibold text-green-700 mb-2">Stronger Together</h3>
+                        <p class="text-sm text-black">We foster collaboration between growers, communities, and
+                            conscious consumers
+                            across
+                            Italy.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Impact Stories -->
+            <section class="bg-white opacity-90 py-8 px-6 justify-center max-w-4xl rounded-lg shadow-md mb-16 mx-auto">
+                <div class="text-center">
+                    <h2 class="text-2xl font-semibold text-yellow-400 mb-6">Impact Stories</h2>
+                    <div class="space-y-6">
+                        <blockquote class="text-sm italic text-gray-700">
+                            “Frescasa has completely changed how my family eats. The produce is unbelievably fresh, and
+                            I love knowing where it comes from.”<br>
+                            <span class="font-bold text-green-700">— Sofia R., Milano</span>
+                        </blockquote>
+                        <blockquote class="text-sm italic text-gray-600">
+                            “Being a partner farm with Frescasa has helped us grow sustainably and reach more families
+                            who value quality.”<br>
+                            <span class="font-bold text-green-700">— Giovanni P., Parma</span>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Community Events -->
+            <section class="mb-16">
+                <div class="text-center mb-8">
+                    <h2 class="text-2xl font-semibold text-yellow-400">Community Events</h2>
+                    <p class="text-sm">Join us for upcoming events and workshops!</p>
+                    <!-- Events grid/cards go here -->
+                    <section
+                        class="text-white max-w-4xl mx-auto mt-8 overflow-hidden bg-black bg-opacity-30 backdrop-blur-md rounded-lg shadow-lg">
+                        <div class="container px-5 py-10 mx-auto">
+                            <div class="-my-8 divide-y-2 divide-gray-100">
+                                <!-- Farm-to-Table Cooking Class -->
+                                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                                        <span class="font-semibold title-font text-green-700">Workshop</span>
+                                        <span class="mt-1 text-white text-sm">15 May 2025</span>
+                                    </div>
+                                    <div class="md:flex-grow">
+                                        <h2 class="text-2xl font-medium text-yellow-400 title-font mb-2">Fresh Recipes
+                                            with Local Produce</h2>
+                                        <p class="leading-relaxed">Learn to prepare simple, delicious meals using
+                                            seasonal fruits and
+                                            vegetables from Frescasa farms. A hands-on cooking session with a local
+                                            chef!</p>
+                                        <a class="text-green-700 inline-flex items-center mt-4" href="#">Learn More
+                                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                                stroke-width="2" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Organic Farming Tour -->
+                                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                                        <span class="font-semibold title-font text-green-700">Community Event</span>
+                                        <span class="mt-1 text-white text-sm">22 May 2025</span>
+                                    </div>
+                                    <div class="md:flex-grow">
+                                        <h2 class="text-2xl font-medium text-yellow-400 title-font mb-2">A Day at the
+                                            Farm: Meet Your Growers
+                                        </h2>
+                                        <p class="leading-relaxed">Visit one of our partner farms, see sustainable
+                                            farming practices up
+                                            close, and pick your own fresh produce to take home.</p>
+                                        <a class="text-green-700 inline-flex items-center mt-4" href="#">Learn More
+                                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                                stroke-width="2" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Preserving Seasonal Harvests -->
+                                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                                        <span class="font-semibold title-font text-green-700">Workshop</span>
+                                        <span class="mt-1 text-white text-sm">5 June 2025</span>
+                                    </div>
+                                    <div class="md:flex-grow">
+                                        <h2 class="text-2xl font-medium text-yellow-400 title-font mb-2">Canning,
+                                            Jamming, and Fermenting
+                                            Basics</h2>
+                                        <p class="leading-relaxed">Learn traditional techniques to preserve fruits and
+                                            vegetables. Perfect
+                                            for stocking your pantry with homemade goods.</p>
+                                        <a class="text-green-700 inline-flex items-center mt-4" href="#">Learn More
+                                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                                stroke-width="2" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Urban Gardening 101 -->
+                                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                                        <span class="font-semibold title-font text-green-700">Workshop</span>
+                                        <span class="mt-1 text-white text-sm">12 June 2025</span>
+                                    </div>
+                                    <div class="md:flex-grow">
+                                        <h2 class="text-2xl font-medium text-yellow-400 title-font mb-2">Grow Your Own
+                                            Greens in Small Spaces
+                                        </h2>
+                                        <p class="leading-relaxed">No backyard? No problem! Discover how to cultivate
+                                            herbs, lettuces, and
+                                            tomatoes in pots, balconies, and window boxes.</p>
+                                        <a class="text-green-700 inline-flex items-center mt-4" href="#">Learn More
+                                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                                stroke-width="2" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+
+                                <!-- Frescasa Farmers' Market Festival -->
+                                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                                    <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col">
+                                        <span class="font-semibold title-font text-green-700">Community Event</span>
+                                        <span class="mt-1 text-white text-sm">20 June 2025</span>
+                                    </div>
+                                    <div class="md:flex-grow">
+                                        <h2 class="text-2xl font-medium text-yellow-400 title-font mb-2">Celebrate Local
+                                            Flavors</h2>
+                                        <p class="leading-relaxed">Join us for a lively day with farm stands, artisanal
+                                            foods, live music,
+                                            and family activities, all celebrating our local farmers and seasonal
+                                            bounty.</p>
+                                        <a class="text-green-700 inline-flex items-center mt-4" href="#">Learn More
+                                            <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor"
+                                                stroke-width="2" fill="none" stroke-linecap="round"
+                                                stroke-linejoin="round">
+                                                <path d="M5 12h14"></path>
+                                                <path d="M12 5l7 7-7 7"></path>
+                                            </svg>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+            </section>
+
+            <!-- Photo Gallery -->
+            <section class="mb-16">
+                <h2 class="text-center text-2xl font-semibold text-yellow-400 mb-6">Gallery</h2>
+                <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 max-w-5xl mx-auto">
+                    <img src="./images/community-images/community1.jpg"
+                        class="rounded-lg shadow-md object-cover h-48 w-full" alt="community gallery images" />
+                    <img src="./images/community-images/community2.jpg"
+                        class="rounded-lg shadow-md object-cover h-48 w-full" alt="community gallery images" />
+                    <img src="./images/community-images/community3.jpg"
+                        class="rounded-lg shadow-md object-cover h-48 w-full" alt="community gallery images" />
+                    <img src="./images/community-images/community4.jpg"
+                        class="rounded-lg shadow-md object-cover h-48 w-full" alt="community gallery images" />
+                    <img src="./images/community-images/community5.jpg"
+                        class="rounded-lg shadow-md object-cover h-48 w-full" alt="community gallery images" />
+                    <img src="./images/community-images/community6.jpg"
+                        class="rounded-lg shadow-md object-cover h-48 w-full" alt="community gallery images" />
+                </div>
+            </section>
+
+            <!-- Newsletter Sign-Up -->
+            <section class="bg-white py-10 rounded-lg shadow-md max-w-2xl opacity-90 mx-auto text-center reveal">
+                <h2 class="text-2xl font-semibold text-green-700 mb-4">Join the Movement</h2>
+                <p class="mb-6 text-sm text-gray-600">Sign up for news, seasonal recipes, and exclusive member offers.
+                </p>
+                <form class="flex flex-col sm:flex-row justify-center gap-4 px-4">
+                    <input type="email" placeholder="Your email"
+                        class="px-3 py-1.5 text-md border border-gray-300 rounded-md w-full sm:w-2/3" required>
+                    <button type="submit"
+                        class="bg-green-600 text-white px-3 py-1.5 text-md rounded hover:bg-green-700 transition">Subscribe</button>
+                </form>
+            </section>
+
+            <!-- Social Buzz -->
+            <section class="max-w-3xl mx-auto space-y-6 mt-16">
+                <h2 class="text-2xl font-semibold text-yellow-400 text-center mb-6">Social Buzz</h2>
+                <!-- Twitter-style Card -->
+                <div class="bg-[#15202B] rounded-lg shadow-md p-4">
+                    <div class="flex items-start gap-3">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" class="w-10 h-10 rounded-full" />
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center mb-1">
+                                <div>
+                                    <p class="font-semibold text-white">@sofiabites</p>
+                                    <p class="text-xs text-gray-400">2h ago</p>
+                                </div>
+                                <i class="fa-brands fa-x-twitter text-white text-lg"></i>
+                            </div>
+                            <p class="text-sm text-gray-300 mb-2">
+                                Just got my Frescasa delivery and I’m OBSESSED 😍 Freshest berries ever! 🍓🍇
+                                <span class="text-green-400 font-semibold">#Frescasa</span>
+                            </p>
+                            <div class="flex gap-6 text-sm text-gray-500">
+                                <span class="flex items-center">
+                                    <i class="fas fa-heart mr-1 text-red-500"></i>112
+                                </span>
+                                <span class="flex items-center">
+                                    <i class="far fa-comment mr-1"></i>19
+                                </span>
+                                <span class="flex items-center">
+                                    <i class="fas fa-retweet mr-1"></i>24
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Twitter Card -->
+                <div class="bg-[#15202B] rounded-lg shadow-md p-4">
+                    <div class="flex items-start gap-3">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" class="w-10 h-10 rounded-full" />
+                        <div class="flex-1">
+                            <div class="flex justify-between items-center mb-1">
+                                <div>
+                                    <p class="font-semibold text-white">@giovannigrows</p>
+                                    <p class="text-xs text-gray-400">5h ago</p>
+                                </div>
+                                <i class="fa-brands fa-x-twitter text-white text-lg"></i>
+                            </div>
+                            <p class="text-sm text-gray-300 mb-2">
+                                Proud to partner with <span class="text-green-400 font-semibold">#Frescasa</span> this
+                                season! 🌱
+                                Our fields have never been greener — local produce is the future. 🚜🍅🌾
+                            </p>
+                            <div class="flex gap-6 text-sm text-gray-500">
+                                <span class="flex items-center">
+                                    <i class="fas fa-heart mr-1 text-red-500"></i>76
+                                </span>
+                                <span class="flex items-center">
+                                    <i class="fas fa-retweet mr-1"></i>24
+                                </span>
+                                <span class="flex items-center">
+                                    <i class="far fa-comment mr-1"></i>11
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section class="flex flex-col md:flex-row justify-center items-center gap-8 mt-12 mb-12 px-4">
+                    <!-- Instagram Post 1 -->
+                    <div class="bg-white rounded-lg shadow-md p-4 max-w-sm w-full">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <img src="https://randomuser.me/api/portraits/men/33.jpg"
+                                    class="w-10 h-10 rounded-full" />
+                                <div>
+                                    <p class="font-semibold text-gray-800">@greenchef</p>
+                                    <p class="text-xs text-gray-500">4h ago</p>
+                                </div>
+                            </div>
+                            <i class="fab fa-instagram text-pink-500 text-lg"></i>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-2">
+                            Cooking tonight’s dinner with Frescasa veggies 💚🌿 Nothing beats local freshness.
+                            <span class="text-green-700 font-semibold">#FarmToTable</span>
+                        </p>
+                        <img src="./images/community-images/community7.jpeg"
+                            class="rounded-lg mb-2 w-full object-cover h-40" alt="Veggie plate" />
+                        <div class="flex gap-6 text-sm text-gray-500">
+                            <span><i class="far fa-heart mr-1"></i>87</span>
+                            <span><i class="far fa-comment mr-1"></i>14</span>
+                        </div>
+                    </div>
+
+                    <!-- Instagram Post 2 (Custom Info) -->
+                    <div class="bg-white rounded-lg shadow-md p-4 max-w-sm w-full">
+                        <div class="flex items-center justify-between mb-2">
+                            <div class="flex items-center gap-3">
+                                <img src="https://randomuser.me/api/portraits/women/55.jpg"
+                                    class="w-10 h-10 rounded-full" />
+                                <div>
+                                    <p class="font-semibold text-gray-800">@freshfinds</p>
+                                    <p class="text-xs text-gray-500">1d ago</p>
+                                </div>
+                            </div>
+                            <i class="fab fa-instagram text-pink-500 text-lg"></i>
+                        </div>
+                        <p class="text-sm text-gray-700 mb-2">
+                            Just discovered the juiciest strawberries, thanks to Frescasa! Totally obsessed with these
+                            summer vibes.
+
+                        </p>
+                        <img src="./images/community-images/community8.jpg"
+                            class="rounded-lg mb-2 w-full object-cover h-40" alt="Strawberries" />
+                        <div class="flex gap-6 text-sm text-gray-500">
+                            <span><i class="far fa-heart mr-1"></i>152</span>
+                            <span><i class="far fa-comment mr-1"></i>25</span>
+                        </div>
+                    </div>
+
+                </section>
+
+                <!-- Join the community -->
+                <section class="text-center mt-12 mb-12">
+                    <h2 class="text-2xl font-bold text-yellow-400 mb-3">Ready to be part of something fresh?</h2>
+                    <p class="mb-4 max-w-xl mx-auto">Whether you're a grower or a grocery lover, there's a place for you
+                        in
+                        the Frescasa
+                        community. Let’s grow together.</p>
+                    <a href="contact.html"
+                        class="bg-yellow-300 text-black px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 transition-all">
+                        <i class="fas fa-users mr-2"></i> Join the Community
+                    </a>
+                </section>
+            </section>
+        </div>
+    </div>
+
+    <footer class="py-6 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 sm:px-8">
+            <div class="flex flex-col justify-between items-center mb-4 gap-4 sm:gap-0">
+                <div class="flex flex-wrap justify-center gap-3 sm:justify-start">
+                    <a href="index.html" class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Home</a>
+                    <a href="about-page.html" class="hover:text-yellow-300 duration-200 text-sm sm:text-base">About</a>
+                    <a href="services.html" class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Services</a>
+                    <a href="categories-page.html"
+                        class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Categories</a>
+                    <a href="community.html"
+                        class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Community</a>
+                    <a href="contact.html" class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Contact</a>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="flex justify-center mt-4 mb-2 sm:justify-end space-x-4">
+                    <a href="#" class="hover:text-yellow-300 duration-200" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="hover:text-yellow-300 duration-200" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="hover:text-yellow-300 duration-200" aria-label="X (formerly Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="#" class="hover:text-yellow-300 duration-200" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer Note -->
+            <p class="text-center text-sm">
+                &copy; 2025 Frescasa Srl <span class="mx-2">All rights reserved.</span> Created by Kevin Dixon
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

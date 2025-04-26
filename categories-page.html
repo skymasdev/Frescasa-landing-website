@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/images/letter-f.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Frescasa | Explore Our Categories</title>
+
+    <meta name="description"
+        content="Frescasa is dedicated to providing fresh, farm-to-table produce across Italy. Join us in our mission to make high-quality, locally sourced food accessible to everyone.">
+    <meta name="keywords"
+        content="Frescasa, fresh produce, farm-to-table, sustainable food, local farms, Italian food, organic produce">
+    <meta name="author" content="Frescasa Team">
+
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="Frescasa - Fresh Farm-to-Table Produce">
+    <meta property="og:description"
+        content="Discover Frescasa's commitment to delivering fresh, high-quality produce from local farms to your table.">
+    <meta property="og:image" content="/images/letter-f.ico">
+    <meta property="og:url" content="https://frescasa.netlify.app/">
+    <meta property="og:type" content="website">
+    <link rel="shortcut icon" href="/images/letter-f.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="text-white">
+    <!-- Background Container with Overlay -->
+    <div class="relative min-h-screen w-full bg-[url('images/fruits.png')] bg-no-repeat bg-center bg-cover">
+
+        <!-- Dark Overlay -->
+        <div class="absolute inset-0 bg-black bg-opacity-70 z-0"></div>
+
+        <!-- Page Content -->
+        <div class="relative z-10 px-6 md:px-16 lg:px-28 py-5 overflow-y-auto">
+
+            <!-- Navbar -->
+            <nav class="flex items-center justify-between">
+                <!-- Logo -->
+                <a href="index.html">
+                    <p class="text-4xl font-bold text-yellow-300 cursor-pointer">Frescasa</p>
+                </a>
+                <!-- Desktop Menu -->
+                <ul class="hidden md:flex flex-1 justify-center">
+                    <li class="list-none inline-block px-3"><a href="about-page.html"
+                            class="hover:text-yellow-300 duration-200">About</a></li>
+                    <li class="list-none inline-block px-3"><a href="services.html"
+                            class="hover:text-yellow-300 duration-200">Services</a></li>
+                    <li class="list-none inline-block px-3"><a href="categories-page.html"
+                            class="hover:text-yellow-300 duration-200">Categories</a></li>
+                    <li class="list-none inline-block px-3"><a href="community.html"
+                            class="hover:text-yellow-300 duration-200">Community</a></li>
+                    <li class="list-none inline-block px-3"><a href="contact.html"
+                            class="hover:text-yellow-300 duration-200">Contact</a></li>
+                </ul>
+
+                <!-- Cart & Hamburger -->
+                <div class="flex items-center gap-4">
+                    <img src="images/cart.png" class="w-8 cursor-pointer" />
+                    <div class="hamburger md:hidden text-white text-3xl cursor-pointer">&#9776;</div>
+                </div>
+            </nav>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden">
+                <div class="close-icon text-white text-2xl cursor-pointer">&times;</div>
+                <ul class="mt-4 space-y-2">
+                    <li><a href="about-page.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="categories-page.html">Categories</a></li>
+                    <li><a href="community.html">Community</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Categories Section-->
+            <div class="container">
+                <div class="max-w-2xl mx-auto text-center mt-16 mb-5 lg:mb-14">
+                    <h2 class="text-3xl font-bold md:text-4xl md:leading-tight text-yellow-300">Explore Our Categories
+                    </h2>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-2 md:gap-12 mb-4">
+                    <!-- Fruits -->
+                    <div class="text-center">
+                        <a href="categories/berries.html">
+                            <img class="rounded-full size-36 sm:size-36 lg:size-48 mx-auto"
+                                src="./images/categories-images/berries.jpeg"
+                                alt="Berries" />
+                            <div class="mt-2 sm:mt-4">
+                                <h3 class="text-sm font-medium sm:text-base lg:text-lg">Berries</h3>
+                        </a>
+                        <p class="italic text-xs sm:text-sm lg:text-base">Strawberries, Blueberries, Raspberries</p>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="categories/citrus.html">
+                        <img class="rounded-full size-36 sm:size-36 lg:size-48 mx-auto"
+                            src="./images/categories-images/citrus.jpg"
+                            alt="Citrus Fruits"/>
+                        <div class="mt-2 sm:mt-4">
+                            <h3 class="text-sm font-medium sm:text-base lg:text-lg">Citrus Fruits</h3>
+                            <p class="text-xs sm:text-sm lg:text-base italic">Oranges, Lemons, Limes</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="categories/seasonal-fruits.html">
+                        <img class="rounded-full size-36 sm:size-36 lg:size-48 mx-auto" src="./images/categories-images/seasonal-fruits.jpg" alt="Seasonal Fruits" />
+                        <div class="mt-2 sm:mt-4">
+                            <h3 class="text-sm font-medium sm:text-base lg:text-lg">Seasonal Fruits</h3>
+                            <p class="italic text-xs sm:text-sm lg:text-base">Apples, Pears, Grapes</p>
+                        </div>
+                    </a>
+                </div>
+                <!--Vegetables-->
+                <div class="text-center">
+                    <a href="categories/leafy-greens.html">
+                        <img class="rounded-full size-36 sm:size-36 lg:size-48 mx-auto"
+                            src="./images/categories-images/leafy-greens.jpg"
+                            alt="Leafy Greens" />
+                        <div class="mt-2 sm:mt-4">
+                            <h3 class="text-sm font-medium sm:text-base lg:text-lg">Leafy Greens</h3>
+                            <p class="italic text-xs sm:text-sm lg:text-base">Spinach, Kale, Lettuce</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="categories/root-vegetables.html">
+                        <img class="rounded-full size-36 sm:size-36 lg:size-48 mx-auto"
+                            src="./images/categories-images/root-vegetables.jpg"
+                            alt="Root Vegetables"/>
+                        <div class="mt-2 sm:mt-4">
+                            <h3 class="text-sm font-medium sm:text-base lg:text-lg">Root Vegetables</h3>
+                            <p class="italic text-xs sm:text-sm lg:text-base">Carrots, Beets, Potatoes</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="text-center">
+                    <a href="categories/cruciferous.html">
+                        <img class="rounded-full size-36 sm:size-36 lg:size-48 mx-auto"
+                            src="./images/categories-images/cruciferous.jpg"
+                            alt="Cruciferous Vegetables" />
+                        <div class="mt-2 sm:mt-4">
+                            <h3 class="text-sm font-medium sm:text-base lg:text-lg">Cruciferous Vegetable</h3>
+                            <p class="italic text-xs sm:text-sm lg:text-base">Broccoli, Cauliflower, Cabbage</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <footer class="py-6 bg-gray-900 text-white">
+        <div class="container mx-auto px-4 sm:px-8">
+            <!-- Flex container: stack on small, row on larger screens -->
+            <div class="flex flex-col justify-between items-center mb-4 gap-4 sm:gap-0">
+                <!-- Nav Links -->
+                <div class="flex flex-wrap justify-center gap-3 sm:justify-start">
+                    <a href="index.html" class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Home</a>
+                    <a href="about-page.html" class="hover:text-yellow-300 duration-200 text-sm sm:text-base">About</a>
+                    <a href="services.html" class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Services</a>
+                    <a href="categories-page.html"
+                        class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Categories</a>
+                    <a href="community.html"
+                        class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Community</a>
+                    <a href="contact.html" class="hover:text-yellow-300 duration-200 text-sm sm:text-base">Contact</a>
+                </div>
+
+                <!-- Social Icons -->
+                <div class="flex justify-center mt-4 sm:justify-end space-x-4">
+                    <a href="#" class="hover:text-yellow-300 duration-200" aria-label="Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="hover:text-yellow-300 duration-200" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="hover:text-yellow-300 duration-200" aria-label="X (formerly Twitter)">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+                    <a href="#" class="hover:text-yellow-300 duration-200" aria-label="YouTube">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Footer Note -->
+            <p class="text-center text-sm">
+                &copy; 2025 Frescasa Srl <span class="mx-2">All rights reserved.</span> Created by Kevin Dixon
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

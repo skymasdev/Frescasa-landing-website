@@ -9,6 +9,12 @@ module.exports = {
       backgroundImage: {
         fruits: "url('/images/fruits.png')",
       },
+      screens: {
+        sm: '430px', // Add your custom breakpoint
+      },
+      fontSize: {
+        '3.5xl': '1.875rem', // Custom size between 3xl and 4xl
+      },
     },
   },
   plugins: [],
